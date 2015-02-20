@@ -10,9 +10,6 @@
 	    bottom = false, windowWidth, windowHeight, lastWindowPos = 0,
 	    topOffset = 0, bodyHeight, sidebarHeight, resizeTimer;
 
-	// Add dropdown toggle that display child menu items.
-	$( '.main-navigation .page_item_has_children > a, .main-navigation .menu-item-has-children > a' ).after( '<button class="dropdown-toggle" aria-expanded="false">' + screenReaderText.expand + '</button>' );
-
 	$( '.dropdown-toggle' ).click( function( e ) {
 		var _this = $( this );
 		e.preventDefault();
@@ -29,7 +26,7 @@
 			return;
 		}
         
-        // This is a button
+        // The button here refers to the actual button you'd click, not a button in any other sense.
 		button = $( '.site-branding' ).find( '.secondary-toggle' );
 		if ( ! button ) {
 			return;
@@ -59,7 +56,7 @@
 		sidebarHeight = $sidebar.height();
 
 		if ( 955 > windowWidth ) {
-			top = bottom = false;
+			top = bottom = true;
 			$sidebar.removeAttr( 'style' );
 		}
 	}
