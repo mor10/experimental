@@ -28,7 +28,8 @@
 		if ( ! secondary ) {
 			return;
 		}
-
+        
+        // This is a button
 		button = $( '.site-branding' ).find( '.secondary-toggle' );
 		if ( ! button ) {
 			return;
@@ -44,9 +45,9 @@
 		}
 
 		button.on( 'click.twentyfifteen', function() {
-			secondary.toggleClass( 'toggled-on' );
+			secondary.toggleClass( 'toggled-off' );
 			secondary.trigger( 'resize' );
-			$( this ).toggleClass( 'toggled-on' );
+			$( this ).toggleClass( 'toggled-off' );
 		} );
 	} )();
 
