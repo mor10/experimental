@@ -8,3 +8,6 @@ The ".md" extension is a reference to a markupl language called "Markdown" which
 
 ## Main branch changes
 Now we are working on two branches. One is the master - or main - branch, the other is an alternate one. The changes I'm making now are in the Master branch. Because I've already branched off from it these changes will not be added in the alternative branch.
+
+## Fast Forward
+When there are no conflicts, rather than a merge you get what's called a "Fast Forward". This just means that the files are added onto or changed automatically and nothing is really merged.
