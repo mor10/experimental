@@ -11,3 +11,6 @@ Now we are working on two branches. One is the master - or main - branch, the ot
 
 ## Fast Forward
 When there are no conflicts, rather than a merge you get what's called a "Fast Forward". This just means that the files are added onto or changed automatically and nothing is really merged.
+
+# Brakcets support
+Interestingly Brackets allows for syntax highlighting of Markdown and Github flavored Markdown!
